@@ -22,8 +22,10 @@ function setup(){
   InvisibleBoundary2=createSprite(370,200,20,400);
    InvisibleBoundary2.visible=false;
    
-  runner=createSprite(300,320,70);
+   runner=createSprite(300,320,70,70);
    runner.addAnimation("running",runnerImage);
+   runner.scale = 0.1 
+
  
   InvisibleBoundary1=createSprite(34,200,20,400);
   InvisibleBoundary1.visible=false;
